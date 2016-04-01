@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+     <div id="DivTable1">
+    <div id="FixRow">
+        <table>
+        <tr>
+            <td></td><td></td><td></td>
+            <td></td><td></td><td></td>
+            <td></td><td></td><td></td>
+        </tr>
+        </table>
+    </div>
+    <div class="Content">
+        <table> 
+            <tr>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+            </tr>
+             <tr>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+            </tr>
+             <tr>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+            </tr>
+             <tr>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+            </tr>
+             <tr>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+            </tr>
+             <tr>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+            </tr>
+             <tr>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+            </tr>
+             <tr>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+            </tr>
+             <tr>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+            </tr>
+             <tr>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+                <td></td><td></td><td></td>
+            </tr>
+            
+        </table>
+    </div> 
+
+<div id="bl" class=""></div>
+</body>
+<script type="text/javascript">
+        // СКРОЛИНГ ФИКСИРОВАННОЙ ШАПКИ ТАБЛИЦЫ
+     var FixRow =  document.getElementById('FixRow'),
+	 DivTable1 = document.getElementById('DivTable1');
+    DivTable1.onscroll = function() {
+        var x = DivTable1.pageXOffset || DivTable1.scrollLeft;
+        var y = DivTable1.pageYOffset || DivTable1.scrollTop;
+        FixRow.style.top = y + 'px';
+        FixRow.style.right = x + 'px';
+
+    }
+
+    
+
+</script>
+</html>
